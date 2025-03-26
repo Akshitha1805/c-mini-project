@@ -40,7 +40,7 @@ int main(){
 				}
 				break;
 			case 3:
-				printf("Enter author name:");
+				printf("Enter author name:\n");
 				scanf("%s",ar_nm);
 				for(i=0;i<count;i++){
 					if(strcmp(ar_nm,lib[i].author)==0)
